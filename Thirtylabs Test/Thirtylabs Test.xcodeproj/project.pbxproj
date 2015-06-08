@@ -1,0 +1,477 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		32EDC37D1B2563C500DC4852 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 32EDC37C1B2563C500DC4852 /* main.m */; };
+		32EDC3801B2563C500DC4852 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 32EDC37F1B2563C500DC4852 /* AppDelegate.m */; };
+		32EDC3831B2563C500DC4852 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 32EDC3821B2563C500DC4852 /* ViewController.m */; };
+		32EDC3861B2563C500DC4852 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 32EDC3841B2563C500DC4852 /* Main.storyboard */; };
+		32EDC3881B2563C500DC4852 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 32EDC3871B2563C500DC4852 /* Images.xcassets */; };
+		32EDC38B1B2563C500DC4852 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 32EDC3891B2563C500DC4852 /* LaunchScreen.xib */; };
+		32EDC3971B2563C600DC4852 /* Thirtylabs_TestTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 32EDC3961B2563C600DC4852 /* Thirtylabs_TestTests.m */; };
+		32EDC3A11B256BEB00DC4852 /* MediaPlayer.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 32EDC3A01B256BEB00DC4852 /* MediaPlayer.framework */; };
+		32EDC3A31B256BF500DC4852 /* MobileCoreServices.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 32EDC3A21B256BF500DC4852 /* MobileCoreServices.framework */; };
+		32EDC3A51B256BFF00DC4852 /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 32EDC3A41B256BFF00DC4852 /* AVFoundation.framework */; };
+		32EDC3A71B256C0900DC4852 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 32EDC3A61B256C0900DC4852 /* QuartzCore.framework */; };
+		32EDC3A91B256C1400DC4852 /* CoreMedia.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 32EDC3A81B256C1400DC4852 /* CoreMedia.framework */; };
+		32EDC3AB1B256C1E00DC4852 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 32EDC3AA1B256C1E00DC4852 /* UIKit.framework */; };
+		32EDC3AD1B256C2800DC4852 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 32EDC3AC1B256C2800DC4852 /* Foundation.framework */; };
+		32EDC3AF1B256C3300DC4852 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 32EDC3AE1B256C3300DC4852 /* CoreGraphics.framework */; };
+		32EDC3B11B256DD900DC4852 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 32EDC3B01B256DD900DC4852 /* Default-568h@2x.png */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		32EDC3911B2563C600DC4852 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 32EDC36F1B2563C400DC4852 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 32EDC3761B2563C500DC4852;
+			remoteInfo = "Thirtylabs Test";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		32EDC3771B2563C500DC4852 /* Thirtylabs Test.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Thirtylabs Test.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		32EDC37B1B2563C500DC4852 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		32EDC37C1B2563C500DC4852 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		32EDC37E1B2563C500DC4852 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		32EDC37F1B2563C500DC4852 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		32EDC3811B2563C500DC4852 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		32EDC3821B2563C500DC4852 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		32EDC3851B2563C500DC4852 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		32EDC3871B2563C500DC4852 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		32EDC38A1B2563C500DC4852 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		32EDC3901B2563C600DC4852 /* Thirtylabs TestTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Thirtylabs TestTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		32EDC3951B2563C600DC4852 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		32EDC3961B2563C600DC4852 /* Thirtylabs_TestTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Thirtylabs_TestTests.m; sourceTree = "<group>"; };
+		32EDC3A01B256BEB00DC4852 /* MediaPlayer.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MediaPlayer.framework; path = System/Library/Frameworks/MediaPlayer.framework; sourceTree = SDKROOT; };
+		32EDC3A21B256BF500DC4852 /* MobileCoreServices.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MobileCoreServices.framework; path = System/Library/Frameworks/MobileCoreServices.framework; sourceTree = SDKROOT; };
+		32EDC3A41B256BFF00DC4852 /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
+		32EDC3A61B256C0900DC4852 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		32EDC3A81B256C1400DC4852 /* CoreMedia.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreMedia.framework; path = System/Library/Frameworks/CoreMedia.framework; sourceTree = SDKROOT; };
+		32EDC3AA1B256C1E00DC4852 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		32EDC3AC1B256C2800DC4852 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		32EDC3AE1B256C3300DC4852 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		32EDC3B01B256DD900DC4852 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		32EDC3741B2563C500DC4852 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				32EDC3AF1B256C3300DC4852 /* CoreGraphics.framework in Frameworks */,
+				32EDC3AD1B256C2800DC4852 /* Foundation.framework in Frameworks */,
+				32EDC3AB1B256C1E00DC4852 /* UIKit.framework in Frameworks */,
+				32EDC3A91B256C1400DC4852 /* CoreMedia.framework in Frameworks */,
+				32EDC3A71B256C0900DC4852 /* QuartzCore.framework in Frameworks */,
+				32EDC3A51B256BFF00DC4852 /* AVFoundation.framework in Frameworks */,
+				32EDC3A31B256BF500DC4852 /* MobileCoreServices.framework in Frameworks */,
+				32EDC3A11B256BEB00DC4852 /* MediaPlayer.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		32EDC38D1B2563C600DC4852 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		32EDC36E1B2563C400DC4852 = {
+			isa = PBXGroup;
+			children = (
+				32EDC3AE1B256C3300DC4852 /* CoreGraphics.framework */,
+				32EDC3AC1B256C2800DC4852 /* Foundation.framework */,
+				32EDC3AA1B256C1E00DC4852 /* UIKit.framework */,
+				32EDC3A81B256C1400DC4852 /* CoreMedia.framework */,
+				32EDC3A61B256C0900DC4852 /* QuartzCore.framework */,
+				32EDC3A41B256BFF00DC4852 /* AVFoundation.framework */,
+				32EDC3A21B256BF500DC4852 /* MobileCoreServices.framework */,
+				32EDC3A01B256BEB00DC4852 /* MediaPlayer.framework */,
+				32EDC3791B2563C500DC4852 /* Thirtylabs Test */,
+				32EDC3931B2563C600DC4852 /* Thirtylabs TestTests */,
+				32EDC3781B2563C500DC4852 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		32EDC3781B2563C500DC4852 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				32EDC3771B2563C500DC4852 /* Thirtylabs Test.app */,
+				32EDC3901B2563C600DC4852 /* Thirtylabs TestTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		32EDC3791B2563C500DC4852 /* Thirtylabs Test */ = {
+			isa = PBXGroup;
+			children = (
+				32EDC3B01B256DD900DC4852 /* Default-568h@2x.png */,
+				32EDC37E1B2563C500DC4852 /* AppDelegate.h */,
+				32EDC37F1B2563C500DC4852 /* AppDelegate.m */,
+				32EDC3811B2563C500DC4852 /* ViewController.h */,
+				32EDC3821B2563C500DC4852 /* ViewController.m */,
+				32EDC3841B2563C500DC4852 /* Main.storyboard */,
+				32EDC3871B2563C500DC4852 /* Images.xcassets */,
+				32EDC3891B2563C500DC4852 /* LaunchScreen.xib */,
+				32EDC37A1B2563C500DC4852 /* Supporting Files */,
+			);
+			path = "Thirtylabs Test";
+			sourceTree = "<group>";
+		};
+		32EDC37A1B2563C500DC4852 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				32EDC37B1B2563C500DC4852 /* Info.plist */,
+				32EDC37C1B2563C500DC4852 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		32EDC3931B2563C600DC4852 /* Thirtylabs TestTests */ = {
+			isa = PBXGroup;
+			children = (
+				32EDC3961B2563C600DC4852 /* Thirtylabs_TestTests.m */,
+				32EDC3941B2563C600DC4852 /* Supporting Files */,
+			);
+			path = "Thirtylabs TestTests";
+			sourceTree = "<group>";
+		};
+		32EDC3941B2563C600DC4852 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				32EDC3951B2563C600DC4852 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		32EDC3761B2563C500DC4852 /* Thirtylabs Test */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 32EDC39A1B2563C600DC4852 /* Build configuration list for PBXNativeTarget "Thirtylabs Test" */;
+			buildPhases = (
+				32EDC3731B2563C500DC4852 /* Sources */,
+				32EDC3741B2563C500DC4852 /* Frameworks */,
+				32EDC3751B2563C500DC4852 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Thirtylabs Test";
+			productName = "Thirtylabs Test";
+			productReference = 32EDC3771B2563C500DC4852 /* Thirtylabs Test.app */;
+			productType = "com.apple.product-type.application";
+		};
+		32EDC38F1B2563C600DC4852 /* Thirtylabs TestTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 32EDC39D1B2563C600DC4852 /* Build configuration list for PBXNativeTarget "Thirtylabs TestTests" */;
+			buildPhases = (
+				32EDC38C1B2563C600DC4852 /* Sources */,
+				32EDC38D1B2563C600DC4852 /* Frameworks */,
+				32EDC38E1B2563C600DC4852 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				32EDC3921B2563C600DC4852 /* PBXTargetDependency */,
+			);
+			name = "Thirtylabs TestTests";
+			productName = "Thirtylabs TestTests";
+			productReference = 32EDC3901B2563C600DC4852 /* Thirtylabs TestTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		32EDC36F1B2563C400DC4852 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0630;
+				ORGANIZATIONNAME = U.F.Okechukwu;
+				TargetAttributes = {
+					32EDC3761B2563C500DC4852 = {
+						CreatedOnToolsVersion = 6.3.2;
+					};
+					32EDC38F1B2563C600DC4852 = {
+						CreatedOnToolsVersion = 6.3.2;
+						TestTargetID = 32EDC3761B2563C500DC4852;
+					};
+				};
+			};
+			buildConfigurationList = 32EDC3721B2563C500DC4852 /* Build configuration list for PBXProject "Thirtylabs Test" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 32EDC36E1B2563C400DC4852;
+			productRefGroup = 32EDC3781B2563C500DC4852 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				32EDC3761B2563C500DC4852 /* Thirtylabs Test */,
+				32EDC38F1B2563C600DC4852 /* Thirtylabs TestTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		32EDC3751B2563C500DC4852 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				32EDC3861B2563C500DC4852 /* Main.storyboard in Resources */,
+				32EDC3B11B256DD900DC4852 /* Default-568h@2x.png in Resources */,
+				32EDC38B1B2563C500DC4852 /* LaunchScreen.xib in Resources */,
+				32EDC3881B2563C500DC4852 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		32EDC38E1B2563C600DC4852 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		32EDC3731B2563C500DC4852 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				32EDC3831B2563C500DC4852 /* ViewController.m in Sources */,
+				32EDC3801B2563C500DC4852 /* AppDelegate.m in Sources */,
+				32EDC37D1B2563C500DC4852 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		32EDC38C1B2563C600DC4852 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				32EDC3971B2563C600DC4852 /* Thirtylabs_TestTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		32EDC3921B2563C600DC4852 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 32EDC3761B2563C500DC4852 /* Thirtylabs Test */;
+			targetProxy = 32EDC3911B2563C600DC4852 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		32EDC3841B2563C500DC4852 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				32EDC3851B2563C500DC4852 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		32EDC3891B2563C500DC4852 /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				32EDC38A1B2563C500DC4852 /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		32EDC3981B2563C600DC4852 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer: Rebecca Yaworsky (JDW8GP79YJ)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: Rebecca Yaworsky (JDW8GP79YJ)";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PROVISIONING_PROFILE = "8700b62b-c2a1-4862-ac52-b6bce3dad7c1";
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		32EDC3991B2563C600DC4852 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer: Rebecca Yaworsky (JDW8GP79YJ)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: Rebecca Yaworsky (JDW8GP79YJ)";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PROVISIONING_PROFILE = "8700b62b-c2a1-4862-ac52-b6bce3dad7c1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		32EDC39B1B2563C600DC4852 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer: Rebecca Yaworsky (JDW8GP79YJ)";
+				INFOPLIST_FILE = "Thirtylabs Test/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "8700b62b-c2a1-4862-ac52-b6bce3dad7c1";
+			};
+			name = Debug;
+		};
+		32EDC39C1B2563C600DC4852 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer: Rebecca Yaworsky (JDW8GP79YJ)";
+				INFOPLIST_FILE = "Thirtylabs Test/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "8700b62b-c2a1-4862-ac52-b6bce3dad7c1";
+			};
+			name = Release;
+		};
+		32EDC39E1B2563C600DC4852 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "Thirtylabs TestTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Thirtylabs Test.app/Thirtylabs Test";
+			};
+			name = Debug;
+		};
+		32EDC39F1B2563C600DC4852 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "Thirtylabs TestTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Thirtylabs Test.app/Thirtylabs Test";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		32EDC3721B2563C500DC4852 /* Build configuration list for PBXProject "Thirtylabs Test" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				32EDC3981B2563C600DC4852 /* Debug */,
+				32EDC3991B2563C600DC4852 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		32EDC39A1B2563C600DC4852 /* Build configuration list for PBXNativeTarget "Thirtylabs Test" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				32EDC39B1B2563C600DC4852 /* Debug */,
+				32EDC39C1B2563C600DC4852 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		32EDC39D1B2563C600DC4852 /* Build configuration list for PBXNativeTarget "Thirtylabs TestTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				32EDC39E1B2563C600DC4852 /* Debug */,
+				32EDC39F1B2563C600DC4852 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 32EDC36F1B2563C400DC4852 /* Project object */;
+}
